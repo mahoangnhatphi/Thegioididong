@@ -1,0 +1,190 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F0;
+}
+
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #FED700;
+    display: flex;
+    align-items: center;
+}
+
+.header div {
+    display: inline-block;
+}
+
+.search-box {
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.search-box input[type="text"] {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 60%;
+}
+
+.search-box .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 96%;
+    transform: translateY(-50%);
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    height: auto;
+    width: (100/6)%;
+    text-align: center;
+}
+
+.nav-menu:hover {
+    cursor: pointer;
+}
+
+.nav-icon {
+    display: block;
+    width: 100%;
+    font-size: 2em;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-bottom: 0;
+    margin-top: 2%;
+}
+
+.footer-information {
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.policy-area {
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.policy-area a {
+    text-decoration: none;
+    margin: 5px 25px;
+}
+
+.footer-col {
+    width: 40%;
+    margin: 0;
+    display: inline-block;
+    margin-top: -5%;
+}
+
+.footer-col li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+
+.footer-contact {
+    width: 30%;
+    display: inline-block;
+}
+
+
+.footer-contact {
+    position: absolute;
+    left: 45%;
+    top: 11%;
+}
+
+.certificate {
+    display: block;
+    width: 95%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+/*index*/
+
+.banner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-content: flex-start;
+    margin-top: 5px;
+}
+
+.banner-carousel-wrap {
+    width: 57%;
+    display: inline-block;
+}
+
+.banner-carousel {
+    width: 100%;
+}
+
+.banner-carousel-title-wrap {
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    background-color: white;
+}
+
+.banner-carousel-title {
+    display: 20%;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.banner-right-col {
+    width: 40%;
+    display: inline-block;
+}
+
+.banner-news-header {
+    font-weight: bolder;
+    padding: 5px;
+    margin-top: 1px;
+    background-color: #FED700;
+}
